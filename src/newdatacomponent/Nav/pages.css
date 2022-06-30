@@ -1,0 +1,78 @@
+.first {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 20px;
+}
+
+.vl {
+    height: 600px;
+}
+
+.first section h1  {
+    font-size: 27px;
+}
+
+.first section h3  {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.first section h1 strong {
+    color: brown;
+}
+
+.first section span  {
+    border: 1px solid brown;
+    border-radius: 30px;
+    padding: 10px;
+    cursor: pointer;
+    transition: 1s;
+    text-decoration: none !important;
+    color: brown;
+}
+
+.first section span:hover {
+    background-color: brown;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+.second {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 26px;
+}
+
+.animated {
+    animation: building 2s ease-in-out infinite alternate-reverse both;
+    /* position: relative; */
+}
+
+@keyframes building {
+    0% {transform: translateY(10px);}
+    100% {transform: translateY(-10px);}
+}
+
+.accordian {
+    background-color: antiquewhite;
+    border: 1px solid black;
+}
+
+.acc1 {
+    display: flex;
+    justify-content: center;
+  
+    padding: 10px 0px;
+}
+
+.btn22 {
+    margin-left: 16px;
+    background-color: bisque;
+    padding: 2px 10px;
+}
+

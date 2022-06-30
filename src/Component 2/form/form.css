@@ -1,0 +1,26 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+}
+
+.form2 {
+    margin-top: 5px;
+    outline: none;
+    border: none;
+    border-radius: 6px;
+    padding: 7px;
+    font-size: 18px;
+}
+
+.form1 {
+    outline: none;
+    border: none;
+    margin-top: 6px;
+    padding: 7px;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 10px;
+}

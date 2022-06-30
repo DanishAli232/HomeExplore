@@ -1,0 +1,23 @@
+
+
+.img {
+    width: 500px;
+    height: 400px;
+    animation-name: example;
+    position: relative;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example {
+    0% {bottom: 0px; top: 0px;}
+    50% {top: 0px; bottom: 100px;}
+    100% {top: 90px; bottom: 0px;}
+}
+
+.ani{
+    display: flex;
+    height: 500px;
+    align-items: center;
+    justify-content: center;
+}

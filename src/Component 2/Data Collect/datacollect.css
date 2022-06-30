@@ -1,0 +1,76 @@
+.data1 {
+    background-color: aquamarine;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 2px 3px 6px -1px black;
+
+}
+
+.data2 {
+    background-color: bisque;
+    width: 390px;
+    height: 185px;
+    border: 1px solid black;
+    box-shadow: 2px 3px 6px -1px black;
+    /* justify-content: center; */
+}
+
+.data2 form {
+    display: flex;
+    flex-direction: column;
+}
+
+.data3 {
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+}
+
+.data2 form input {
+    outline: none;
+    border: none;
+    font-size: 20px;
+    border-bottom: 1px solid;
+}
+
+.data2 form textarea {
+    outline: none;
+    border: none;
+    font-size: 25px;
+    height: 150px;
+}
+
+.data2 form button {
+    outline: none;
+    border: none;
+    width: 0px;
+    position: relative;
+    left: 356px;
+    top: -19px;
+    border-radius: 50%;
+    background-color: aquamarine;
+}
+
+.data2 form button:hover {
+    background-color: aquamarine;
+}
+
+.note {
+    width: 390px;
+    height: auto;
+    border: 1px solid black;
+    box-shadow: 2px 3px 6px -1px black;
+}
+
+.btn1 {
+    outline: none;
+    position: relative;
+    top: 9px;
+    right: -370px;
+    background-color: white;
+    color: red;
+    border: 1px solid black;
+    border-radius: 16px;
+}

@@ -1,0 +1,47 @@
+
+
+.expense {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    /* text-align: center; */
+    background-color: antiquewhite;
+    /* justify-content: space-between; */
+    /* margin-bottom: 40px; */
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.exp div {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.exp div h4 {
+    margin-right: 6px;
+}
+
+.exp {
+    width: 600px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: aqua;
+    padding: 8px 11px;
+    align-items: end;
+}
+
+    .minus {
+        margin-right: 6px;
+        margin-left: 5px;
+        font-size: 25px;
+        color: darkviolet;
+        position: relative;
+        bottom: 2px;
+    }
+    
+    .minus:hover{
+        color: red;
+    }

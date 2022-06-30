@@ -1,0 +1,24 @@
+.head-h6 {
+    padding: 30px;
+    background-color: #f4f4f4;
+    width: min-content;
+    cursor: pointer;
+    
+}
+
+.head-h6 i {
+    font-size: 25px;
+    color: green;
+    padding-left: 14px;
+}
+
+.head-h6:hover {
+    background-color: #dfdede;
+}
+
+.shipping {
+    display: flex;
+    justify-content: space-between;
+    margin-top: -15px;
+}
+

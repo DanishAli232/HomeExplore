@@ -1,0 +1,48 @@
+.iteminfo {
+    margin-top: 8px;
+    background-color: grey;
+    color: white;
+    /* text-align: center; */
+    width: 300px;
+    margin-bottom: -8px;
+    padding-top: 8px;
+}
+
+.dd{
+    justify-content: center;
+    display: flex;
+}
+
+.item {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+
+.int {
+    border: none;
+    border-bottom: 1px solid black;
+    margin-right: 5px;
+}
+
+.btn1 {
+    color: white;
+    background-color: grey;
+    font-size: 20px;
+    padding: 8px;
+}
+
+.btn1:hover {
+    color: greenyellow;
+    font-size: 40px;
+}
+
+.minus {
+    margin-right: 6px;
+    margin-left: 5px;
+}
+
+.minus:hover{
+    color: red;
+}

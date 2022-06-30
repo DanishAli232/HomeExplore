@@ -1,0 +1,14 @@
+.nav-link:hover {
+    color: aqua !important;
+}
+
+.nav-link:focus {
+    color: aqua !important;
+    border-bottom: 1px solid white !important;
+}
+
+.menu-active {
+    color: aqua !important;
+    font-weight: bold ;
+    border-bottom: 1px solid white;
+}

@@ -1,0 +1,18 @@
+
+
+
+.event {
+    
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.event button {
+    background-color: aquamarine;
+    outline: none;
+    padding: 12px;
+    font-size: 29px;
+    border: 1px solid white;
+}

@@ -1,0 +1,93 @@
+.item1 {
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.item1 img {
+    width: 200px;
+    height: 189px;
+    /* position: relative; */
+}
+
+.ss {
+    justify-content: space-around;
+    /* text-align: center; */
+}
+
+.col-4 {
+    display: flex;
+    justify-content: center;
+}
+.image {
+    position: relative;
+}
+
+.image img:hover + .btn-detail{
+    display: flex;
+}
+
+.btn-detail {
+    display: flex;
+    flex-direction: row;
+    background-color: #3d3d3d;
+    color: white;
+    position: absolute;
+    top: 105px;
+    cursor: pointer;
+    /* text-align: center; */
+    display: none;
+    
+}
+
+.btn-detail:hover {
+    display: flex;
+}
+
+.detail1 {
+    padding: 7px;
+    border-right: 1px solid white;
+}
+
+.detail1:hover {
+    background-color: #fb9327;
+}
+
+.detail2 {
+    padding: 7px;
+    padding-left: 10px;
+}
+
+.detail2:hover {
+    background-color: #fb9327;
+}
+
+.item1 h5 {
+    margin-top: -9px;
+}
+
+.detail2-1 {
+    color: white;
+    text-decoration: none;
+}
+
+.detail2-1:hover {
+    color: white;
+}
+
+.Price-detail {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.wishlist {
+    cursor: pointer;
+    color: black;
+}
+
+.wishlist:hover{
+    color: red;
+}

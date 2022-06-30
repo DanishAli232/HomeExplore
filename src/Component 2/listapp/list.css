@@ -1,0 +1,56 @@
+
+
+.list {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    align-items: center;
+}
+
+.list1 {
+    background-color: aqua;
+    height: 310px;
+    width: 250px;
+    box-shadow: 1px 0px 5px 2px black;
+}
+
+.list1 h1 {
+    text-align: center;
+    background-color: rgb(229, 16, 16,1);
+    margin: 16px 1px;
+}
+
+.list2 input {
+    margin-left: 13px;
+    outline: none;
+    border: none;
+    text-align: center;
+    border-bottom: 1px solid;
+    color: black;
+    background-color: aqua;
+}
+
+.list2 button {
+    outline: none;
+    border: none;
+    background-color: white;
+    font-size: 23px;
+    margin-left: 13px;
+    border-radius: 45%;
+    padding-bottom: 4px;
+    cursor: pointer;
+}
+
+.list2 button:hover {
+    background-color: rgb(63, 196, 63);
+    color: white;
+}
+
+.btn {
+    cursor: pointer;
+}
+
+.btn:hover {
+}

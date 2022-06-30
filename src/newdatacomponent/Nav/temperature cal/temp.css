@@ -1,0 +1,29 @@
+
+
+
+
+
+.temp {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    height: 260px;
+    border: 1px solid rgba(0,0,0,.125);
+}
+
+.temp1 {
+    text-align: center;
+    padding: 9px 0px;
+    background-color: bisque;
+}
+
+.temp2 {
+  
+   
+}
+
+.temp3 {
+   
+}

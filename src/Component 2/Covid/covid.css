@@ -1,0 +1,40 @@
+.covid1 {
+    display: flex;
+    justify-content: center;
+}
+
+.covid h1 {
+    text-align: center;
+}
+
+.covid1 table tr td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    height: 40px;
+    text-align: center;
+}
+
+.covid1 table tr:hover {
+    background-color: #ddd;
+}
+
+.covid1 table tr td:hover {
+    background-color: green;
+    color: white;
+    text-transform: uppercase;
+}
+
+.covid1 table tr th {
+    border: 1px solid black;
+    text-align: center;
+}
+
+.covid1 table tr td:hover:nth-child(5){
+    background-color: red;
+}
+
+
+
+
+
+

@@ -1,0 +1,25 @@
+.textarea-1 {
+    text-align: center;
+    align-items: center;
+    border: 1px solid black;
+}
+
+.dd {
+    height: 500px;
+  
+}
+
+.textarea-2 {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.words {
+    font-size: 30px;
+    margin-right: 6px;
+}
+
+.char {
+    font-size: 30px;
+}

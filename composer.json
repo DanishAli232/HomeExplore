@@ -1,0 +1,5 @@
+{
+    "require": {
+        "treblle/treblle-php": "^2.0"
+    }
+}

@@ -1,0 +1,42 @@
+.red {
+    background-color: red;
+    padding: 15px;
+    margin: 6px 6px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    
+}
+
+.yellow {
+    background-color: yellow;
+    padding: 15px;
+    margin: 6px 6px;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.black {
+    background-color: black;
+    padding: 15px;
+    margin: 6px 6px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.wheat {
+    background-color: wheat;
+    padding: 15px;
+    margin: 6px 6px;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.switch {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+}

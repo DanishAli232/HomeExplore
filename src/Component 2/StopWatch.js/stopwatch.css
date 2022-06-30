@@ -1,0 +1,36 @@
+
+
+
+.stopwatch {
+    display: flex;
+    justify-content: center;
+    font-size: -webkit-xxx-large;
+    background-color: cornsilk
+}
+
+.stop-button {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.head {
+    display: flex;
+    justify-content: center;
+}
+
+.btn {
+    padding: 20px;
+    color: white;
+    background-color: black;
+    margin-left: 8px;
+    border-radius: 14px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: cornsilk;
+    text-transform: uppercase;
+    color: black;
+    border: 1px solid black;
+}

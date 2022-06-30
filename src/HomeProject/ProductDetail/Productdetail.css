@@ -1,0 +1,30 @@
+.product-info img {
+    width: 350px;
+    height: 330px;
+    border: 1px solid #8d838333;
+}
+
+.product-info {
+    display: flex;
+    flex-direction: row;
+    margin-top: 9px;
+}
+
+.product-info2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 9px;
+}
+
+.btn-detail22 {
+    border: none;
+    font-size: 18px;
+    padding: 5px 11px;
+    color: #fff;
+    background-color: #3d3d3d;
+    text-transform: uppercase;
+    margin-top: 0;
+    cursor: pointer;
+    letter-spacing: 1px;
+}
